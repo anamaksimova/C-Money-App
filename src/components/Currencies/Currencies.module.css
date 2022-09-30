@@ -1,0 +1,120 @@
+.currencies_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 80px;
+  }
+  .currencies_title {
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+  }
+  .currencies_button {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 70px;
+    padding: 12px 30px;
+    background: linear-gradient(
+        87.4deg,
+        #2e00b1 -11.74%,
+        #8100bd 48.81%,
+        #a400be 113.27%
+    );
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  }
+  .currencies_currencies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .currencies_currencies_title {
+    font-family: Comfortaa;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  /* .Currencies_sort__jn3o0 {
+    align-items: center;
+    display: flex;
+    gap: 15px;
+  } */
+  /* .Currencies_sort__title__dnFDd {
+    color: var(--text);
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  } */
+  /* .Currencies_select__TqOYs {
+    background-color: initial;
+    border: none;
+    color: #fff;
+    outline: transparent;
+    width: 70px;
+  }
+  .Currencies_select__TqOYs option {
+    background-color: var(--bgcolor);
+  } */
+  .currencies_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+  }
+  .currencies_preloader_container {
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .currencies_container {
+      justify-content: center;
+    }
+    .currencies_title {
+      font-size: 30px;
+      line-height: 35px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .currencies_button {
+      margin-bottom: 30px;
+      background: linear-gradient(
+            87.4deg,
+            #2e00b1 -11.74%,
+            #8100bd 48.81%,
+            #a400be 113.27%
+        );
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+        
+    }
+    .currencies_currencies {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+.currencies_list {
+    margin-top: 20px;
+}
+  }
+
+
+  .layout_container {
+    margin: 0 auto;
+    max-width: 1420px;
+    padding: 0 15px;
+  }
+  @media (min-width: 768px) {
+    .layout_container {
+      padding: 0 30px;
+    }
+  }

@@ -1,0 +1,216 @@
+.exchange_container {
+    padding-top: 60px;
+  }
+  .exchange_title {
+    font-family: Comfortaa;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 40px;
+  }
+  .exchange_text {
+    color: var(--text);
+    display: inline-block;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 30px;
+    width: 70px;
+  }
+  .exchange_text:first-of-type {
+    margin-bottom: 15px;
+  }
+  .exchange_text_white {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .exchange_balance:after {
+    content: ' ₽';
+  }
+  .exchange_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .exchange_rates__wrapper {
+    background: var(--header);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    overflow: hidden;
+    padding: 15px 60px 25px 20px;
+  }
+  .exchange_rates__title {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+  }
+  /* .exchange_tr_e {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+  } */
+  .exchange_loader__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  /* .exchange_td__first {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    vertical-align: bottom;
+  }
+  .exchange_td__second {
+    border-bottom: 1px solid var(--bgcolor);
+    width: 100%;
+  }
+  .exchange_td__third {
+    align-items: center;
+    display: flex;
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 700;
+    gap: 5px;
+    justify-content: flex-end;
+    line-height: 100%;
+    margin-top: 20px;
+  } */
+  .exchange_right__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .exchange_exchange__wrapper {
+    background-color: var(--header);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 15px 20px 20px;
+  }
+  .exchange_exchange__title {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-bottom: 15px;
+  }
+  .exchange_form {
+    display: flex;
+    flex-direction: column;
+  }
+  .exchange_inputs__wrapper {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  .exchange_input-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+    position: relative;
+  }
+  .exchange_input-wrapper:not(:last-of-type) {
+    margin-right: 35px;
+  }
+  .exchange_label {
+    color: var(--text);
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+  }
+  .exchange_input {
+    border-radius: 6px;
+    padding: 10px;
+  }
+  .exchange_input:last-of-type {
+    width: 147px;
+  }
+  .exchange_button {
+    align-self: flex-end;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    max-width: 150px;
+    padding: 6px 30px;
+    background: linear-gradient(
+        87.4deg,
+        #2e00b1 -11.74%,
+        #8100bd 48.81%,
+        #a400be 113.27%
+    );
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  margin-left: 20px;
+  }
+  .exchange_currency__title {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  /* .exchange_td__code {
+    color: var(--text);
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 45px;
+  }
+  .exchange_td__amount {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+  } */
+  .exchange_form__error {
+    color: tomato;
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: -30px;
+  }
+  @media (max-width: 768px) {
+    .exchange_wrapper {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .exchange_rates__wrapper {
+      height: 330px;
+      padding-right: 20px;
+    }
+    .exchange_rates__title {
+      text-align: center;
+    }
+    .exchange_inputs__wrapper {
+      flex-direction: column;
+    }
+    .exchange_input_wrapper:not(:last-of-type) {
+      margin-right: 0;
+    }
+    .exchange_input:last-of-type {
+      width: 100%;
+    }
+  }
+  .layout_container {
+    margin: 0 auto;
+    max-width: 1420px;
+    padding: 0 15px;
+  }
+  @media (min-width: 768px) {
+    .layout_container {
+      padding: 0 30px;
+    }
+  }

@@ -1,0 +1,259 @@
+.account_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 65px;
+  }
+  .account_container__header {
+    align-items: center;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  .account_title {
+    font-family: Comfortaa;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 29px;
+  }
+  .account_dynamic {
+    background: var(--header);
+    border-radius: 10px;
+    margin-top: 50px;
+    max-height: 330px;
+    padding: 20px;
+    width: 580px;
+  }
+  .account_dynamic__header {
+    align-items: center;
+    display: flex;
+  }
+  .account_dynamic__title {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-right: 20px;
+  }
+  .account_dynamic__year {
+    color: var(--text);
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .account_dynamic__select {
+    background-color: initial;
+    border: none;
+    color: var(--text);
+    margin-left: auto;
+    outline: transparent;
+  }
+  .account_dynamic__select option {
+    background-color: var(--header);
+  }
+  .account_button {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 12px 30px;
+  }
+  .account_history {
+    max-width: 580px;
+  }
+  .account_history__title {
+    font-family: Comfortaa;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+  .account_preloader__container {
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    width: 100%;
+  }
+  .account_transaction {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+  }
+  .account_transaction__title {
+    margin-bottom: 40px;
+  }
+  .account_transaction__form {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+  }
+  .account_transaction__input_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+  }
+  .account_transaction__label {
+    color: var(--text);
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 2px;
+    padding-left: 15px;
+  }
+  .account_transaction__input {
+    border: 2px solid var(--pink);
+    border-radius: 10px;
+    min-height: 70px;
+    padding: 20px;
+  }
+  .account_button {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 22.5px 143px;
+    background: linear-gradient(
+          87.4deg,
+          #2e00b1 -11.74%,
+          #8100bd 48.81%,
+          #a400be 113.27%
+      );
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+  }
+  @media (max-width: 768px) {
+    .account_container__header {
+      flex-direction: column-reverse;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    .account_title{
+      font-size: 14px;
+    }
+    .account_button {
+      font-size: 16px;
+      padding: 15px 30px;
+    }
+    .account_dynamic {
+      margin-bottom: 30px;
+      margin-top: 0;
+    }
+    .account_history {
+      margin-bottom: 30px;
+      max-width: 100%;
+    }
+    .account_history__title {
+      font-size: 20px;
+      text-align: center;
+    }
+    .account_transaction {
+      margin-top: 0;
+    }
+    .account_transaction__title {
+      font-size: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .account_transaction__form {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .account_transaction__input_wrap {
+      max-width: 100%;
+    }
+    .account_button {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  .table__container {
+    max-height: 487px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .table {
+    background-color: var(--header);
+    border-radius: 10px;
+    padding: 20px;
+    width: 580px;
+  }
+  .table_thead {
+    color: var(--text);
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .table_th {
+    border-bottom: 1px solid var(--bgcolor);
+    padding: 10px 0 16px 20px;
+    text-align: left;
+  }
+  .table_th:first-child {
+    padding-left: 0;
+  }
+  .table_th:nth-child(2) {
+    border-left: 1px solid var(--bgcolor);
+    border-right: 1px solid var(--bgcolor);
+  }
+  .table_th:last-child {
+    padding-left: 12px;
+  }
+  .table_tbody {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .table_td {
+    padding: 12px 0;
+  }
+  .table_td_middle {
+    border-left: 1px solid var(--bgcolor);
+    border-right: 1px solid var(--bgcolor);
+    padding-left: 20px;
+  }
+  .table_td__date {
+    padding-left: 12px;
+  }
+  @media (max-width: 768px) {
+    .table__container {
+      max-height: 300px;
+      max-width: 100%;
+    }
+    .table {
+      max-width: 100%;
+      padding: 5px;
+    }
+    .table_th {
+      font-size: 14px;
+      max-width: 30%;
+      padding: 5px;
+    }
+    .table_tbody {
+      font-size: 12px;
+      max-width: 100%;
+    }
+    .table_td {
+      max-width: 30%;
+      padding: 5px 0;
+    }
+  }
+
+  .layout_container {
+    margin: 0 auto;
+    max-width: 1420px;
+    padding: 0 15px;
+  }
+  @media (min-width: 768px) {
+    .layout_container {
+      padding: 0 30px;
+    }
+  }

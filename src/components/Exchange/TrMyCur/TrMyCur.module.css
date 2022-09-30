@@ -1,0 +1,14 @@
+.exchange_td__code {
+    color: var(--text);
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 45px;
+  }
+  .exchange_td__amount {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+  }
