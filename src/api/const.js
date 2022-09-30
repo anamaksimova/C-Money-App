@@ -1,4 +1,4 @@
-const URL = 'localhost:3004';
+const URL = 'localhost:3000';
 export const URL_API = `http://${URL}`;
 export const URL_WEBSOCKET = `ws://${URL}/currency-feed`;
 export const URL_API_CARDS = `http://${URL}/accounts`;
